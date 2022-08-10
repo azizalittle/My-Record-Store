@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css"/>
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  <title>MyTunes Music Search</title>
+</head>
+<body>
+  <header>
+    <h1>Aziza's Record Store</h1>
+    <div id="playback">
+      <audio id="audio-preview" controls src="">
+      </audio>
+      <div class="current-song">Currently Playing:</div>
+    </div>
+  </header>
+  <div id="container">
+      <div id="search">
+        <form id="search-form" action="">
+          <label for="term">Search for Music</label>
+          <input id="search-box" type="text" name="term" required>
+          <button id="search-button">
+            <i class="fa fa-search"></i>
+          </button>
+          <!-- when the button is in the form, it knows it is a submit button -->
+        </form>
+      </div>
+        <div id="results"></div>
+      
+  </div>
+</body>
+</html>

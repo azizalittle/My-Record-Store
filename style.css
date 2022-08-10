@@ -1,0 +1,73 @@
+h1 {
+    font-family:'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif';
+    font: 'Impact';
+    background-color: rgba(93, 61, 112, .60);
+    color: white;
+    padding: 1rem;
+    border-bottom: .05rem solid red;
+    text-align:center;
+}
+header {
+    background-color: rgba(131, 115, 117, .35);
+}
+.current-song {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 'Franklin Gothic Medium';
+    font-size: xx-large;
+    border-radius: 1rem solid white;
+    color: white;
+    text-align: center;
+}
+#search {
+padding: 1rem;
+border-bottom: 0.07rem solid red;
+text-align: center;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font: 'Franklin Gothic Medium';
+font-size:x-large;
+background-color: rgba(131, 115, 117, .35);
+}
+#search-button {
+    font-size: large;
+}
+#results {
+    border: 1rem solid black;
+    padding: 3rem solid pink;
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+}
+.record {
+    border: 1rem;
+    padding: 1rem;
+    align-content: space-between;
+    width: 20%;
+    text-align: center;
+    color: white;
+    background-color: rgba(130, 126, 132, .30);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: 'Franklin Gothic Medium';
+}
+.record:hover {
+    background-color: #0009;
+}
+.title {
+    font-size: larger;
+}
+body {
+    background-image: url(https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2015/05/Record-Store-Day-Gear-Patrol-Lead-Full.jpg?crop=0.6711340206185566xw:1xh;center,top&resize=980:*); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+#audio-preview {
+    width: 100%
+}
+/* #container { */
+    /* background: */
+        /* url(resources/record\ store\ background.jpeg) center/cover; */
+/* } */
